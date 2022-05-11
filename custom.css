@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.hero_image {
+  background: url(lily-banse--YHSwy6uqvk-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.hero_wrapper {
+  color: rgba(236, 240, 241, 0.808);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero_wrapper h1 {
+  font: size 2.4rem;
+  text-align: center;
+}
+.form_code {
+  text-align: center;
+}
+
+.form_code .post_code {
+  display:block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2rem;
+  padding: 0rem;
+  border: none;
+  outline:auto;
+}
+
+ .buttom {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  background-color: #00bab1;
+  color: white;
+  padding: 3rem;
+border: none;
+border-radius: 3rem;
+margin-top: 1rem;
+margin: 1rem auto 0rem;
+}
+
+.hero_wrapper span{ margin-left: 5rem;
+margin-left: 1rem;}
+
+/* product section */
+ .product{ 
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ .product_list_item{
+   float: left;
+   width:auto;
+   margin-left: 2rem;
+
+
+ }
+ img
+ {
+   height: 500px;
+ }
+ .product_list_item:first-of-item { margin-left: 0;
+
+
+}
+
+@media screen (max-width: 700px){ .product_list_item{
+:width:100; 
+float; none: }
+}
